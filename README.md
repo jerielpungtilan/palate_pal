@@ -1,16 +1,3 @@
 # palate_pal
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Meet your personal nutrition and fitness assistant! PalatePal crafts tailored meal plans, exercise routines, and grocery lists to meet your health goals. Simplify healthy living with just a tap!
