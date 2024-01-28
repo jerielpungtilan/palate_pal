@@ -1,6 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
+import 'package:palate_pal/registration_quiz/question_1.dart';
+import 'package:palate_pal/registration_quiz/start_registration.dart';
+import 'package:palate_pal/screens/home_screen.dart';
 
 import '../constants.dart';
 import 'chat_screen.dart';
@@ -22,6 +25,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       backgroundColor: Colors.white,
       body: ModalProgressHUD(
         inAsyncCall: showSpinner,
@@ -78,7 +82,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               RoundedButton(
                 color: Colors.lightGreenAccent,
-                title: 'Log In',
+                title: 'Login',
                 onPressed: () async {
                   setState(() {
                     showSpinner = true;
@@ -87,7 +91,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     final user = await _auth.signInWithEmailAndPassword(
                         email: email, password: password);
                     if (user != null) {
-                      Navigator.pushNamed(context, ChatScreen.id);
+                      Navigator.pushNamed(context, HomeScreen.id);
                     }
                     setState(() {
                       showSpinner = false;

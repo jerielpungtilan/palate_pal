@@ -58,8 +58,14 @@ class _ChatScreenState extends State<ChatScreen> {
                 //Implement logout functionality
               }),
         ],
-        title: Text('⚡️Chat'),
-        backgroundColor: Colors.lightBlueAccent,
+        title: Text(
+          'Chat',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
+        backgroundColor: Colors.green,
       ),
       body: SafeArea(
         child: Column(
@@ -94,7 +100,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     },
                     child: Text(
                       'Send',
-                      style: kSendButtonTextStyle,
+                      style: sendButtonTextStyle,
                     ),
                   ),
                 ],
