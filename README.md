@@ -2,7 +2,7 @@
 
 > Meet your personal nutrition and fitness assistant! PalatePal crafts tailored meal plans, exercise routines, and grocery lists to meet your health goals. Simplify healthy living with just a tap!
 
-![Palate Pal Demo]([http://url/to/img.png](https://media.discordapp.net/attachments/1200825369037639791/1201040458483257384/simulator_screenshot_D3884D78-2B81-47AF-9D65-9C24207DD72E.png])
+![Palate Pal Demo]([https://media.discordapp.net/attachments/1200825369037639791/1201040458483257384/simulator_screenshot_D3884D78-2B81-47AF-9D65-9C24207DD72E.png])
 
 ## Inspiration
 - Working in primary and urgent care and seeing people be unable to properly manage their conditions
