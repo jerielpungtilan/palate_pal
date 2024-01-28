@@ -15,7 +15,7 @@ class AddTasksScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(
-              'Add Task',
+              'Add Item',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 30.0,
